@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  xray-server:
+    build:
+      context: ./server
+    container_name: xray-server
+    ports:
+      - "443:443"
+    environment:
+      - XRAY_UUID=${}
+    restart: always
+
+  xray-client:
+    build:
+      context: ./client
+    container_name: xray-client
+    ports:
+      - "1080:1080"
+    environment:
+      - VPS_IP=${}
+      - XRAY_UUID=${}
