@@ -1,4 +1,4 @@
-# ❇️Xray + Docker Lightweight Proxy 
+# ❇️ Dockerize xray proxy 
 
 A containerized deployment solution for setting up an Xray Proxy (VLESS protocol) using Docker and Docker Compose. 
 ## 🔫 Architecture Overview
