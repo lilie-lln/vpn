@@ -21,8 +21,7 @@ Internet (Target Website sees VPS IP)
 ```text
 xray-docker-proxy/
 ├── .gitignore
-├── .env.example
-├── README.md
+├── .env
 ├── docker-compose.yml
 ├── server/
 │   ├── Dockerfile
