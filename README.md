@@ -4,7 +4,7 @@ A containerized deployment solution for setting up an Xray Proxy (VLESS protocol
 ## 🔫 Architecture Overview
 
 ```text
-Arc / Chrome / curl 
+Browser / curl 
         ↓
 SOCKS5 Proxy (127.0.0.1:1080)
         ↓
