@@ -1,7 +1,7 @@
-# Xray + Docker Lightweight Proxy 
+# ❇️Xray + Docker Lightweight Proxy 
 
 A containerized deployment solution for setting up an Xray Proxy (VLESS protocol) using Docker and Docker Compose. 
-##  Architecture Overview
+##🔫 Architecture Overview
 
 ```text
 Arc / Chrome / curl 
@@ -16,7 +16,7 @@ Xray Server (Docker Container on VPS)
         ↓
 Internet (Target Website sees VPS IP)
 ```
-##  File structure
+##🔫 File structure
 
 ```text
 xray-docker-proxy/
@@ -32,7 +32,7 @@ xray-docker-proxy/
     └── config.template.json
 ```
 
-##  Quick Start
+##🔫 Quick Start
 
 ### Prerequisites & VPS Provisioning
 To deploy the server instance, we will need a Virtual Private Server (VPS). 
@@ -68,7 +68,7 @@ docker compose up -d xray-client
 
 *Note: The client container is configured to listen on `0.0.0.0:1080` internally so that host machine can access the SOCKS5 proxy service via `127.0.0.1:1080`.*
 
-##  Connection Testing
+##🔫 Connection Testing
 
 Verify that traffic is successfully routing through the proxy tunnel using `curl`:
 
